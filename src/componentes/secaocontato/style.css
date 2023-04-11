@@ -1,0 +1,61 @@
+.secao-contato {
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    padding: 100px 20px;
+    background-color: #05031b;
+
+}
+
+.boxes-contato{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+}
+
+.box-contato{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    padding: 15px;
+}
+
+.box-contato-cont{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.box-contato-cont img{
+    width: 18px;
+}
+
+.box-contato-cont span{
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+@media(max-width:768px){
+    .secao-contato{
+        padding: 60px 20px;
+
+    }
+}
+
+@media(max-width: 550px){
+    .secao-contato{
+        padding: 0 10px;
+    }
+    .boxes-contato{
+        flex-direction: column;
+        justify-content: unset;
+        align-items: center;
+    }
+    .box-contato{
+        justify-content: center;
+        align-items: center;
+    }
+    .box-contato-cont{
+        width: 150px;
+    }
+}

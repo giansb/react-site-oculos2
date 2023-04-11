@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+.limita-secao{
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+.subtitulo{
+  text-transform: uppercase;
+  font-size: 36px;
+  margin: 0;
+}
+
+
+@media(max-width:768px){
+  .capa-cont h1{
+    font-size: 40px;
+    max-width: 350px;
+  }
+}
