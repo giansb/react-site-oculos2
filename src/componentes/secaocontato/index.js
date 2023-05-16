@@ -2,7 +2,7 @@ import './style.css';
 
 export default function SecaoContato(){
     return(
-        <section className='secao-contato'>
+        <section id='contato' className='secao-contato'>
             <div className="limita-secao">
             <div >
                 <h2 className="subtitulo">FALE CONOSCO</h2>
@@ -13,26 +13,26 @@ export default function SecaoContato(){
                     <h3>Contato</h3>
                     <div>
                         <div className='box-contato-cont'>
-                            <img src="../assets/local.png"/><span>Nova Iguacu, RJ</span>
+                            <img src="./assets/local.png"/><span>Nova Iguacu, RJ</span>
                         </div>
                         <div className='box-contato-cont'>
-                            <img src="../assets/telefone.png"/><span>(21) 9999-9999</span>
+                            <img src="./assets/telefone.png"/><span>(21) 9999-9999</span>
                         </div>
                         <div className='box-contato-cont'>
-                            <img src="../assets/email.png"/><span>contato@oticavida.com</span>
+                            <img src="./assets/email.png"/><span>contato@oticavida.com</span>
                         </div>
                     </div>
                 </div>
                 <div className='box-contato'>
                     <h3>Nossas Redes Sociais</h3>
                     <div className='box-contato-cont'>
-                        <img src="../assets/fb.png"/><span>/OticaVida</span>
+                        <img src="./assets/fb.png"/><span>/OticaVida</span>
                     </div>
                     <div className='box-contato-cont'>
-                        <img src="../assets/ig.png"/><span>@oticavidarj</span>
+                        <img src="./assets/ig.png"/><span>@oticavidarj</span>
                     </div>
                     <div className='box-contato-cont'>
-                        <img src="../assets/tt.png"/><span>@oticavidarj</span>
+                        <img src="./assets/tt.png"/><span>@oticavidarj</span>
                     </div>
                 </div>
             </div>

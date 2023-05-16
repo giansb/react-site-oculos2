@@ -1,7 +1,7 @@
 import './style.css';
 export default function SecaoSobre(){
     return (
-        <section className='secao-sobre'>
+        <section id='sobre' className='secao-sobre'>
             <div className="limita-secao">
                     <div>
                         <h1 className="subtitulo">QUEM SOMOS NÓS?</h1>
@@ -9,7 +9,7 @@ export default function SecaoSobre(){
                     </div>
                     <div className='boxes-sobre'>
                         
-                            <img src="../assets/loja.png"/>
+                            <img src="./assets/loja.png"/>
                        
                         <div className='box-sobre'>
                             <h2>NOSSAS FILIAIS</h2>
@@ -21,7 +21,7 @@ export default function SecaoSobre(){
                             <p>Nossa equipe possui é treinada para te atender</p>
                         </div>
 
-                        <img src="../assets/atendimento.png"/>
+                        <img src="./assets/atendimento.png"/>
 
                     </div>
             </div>

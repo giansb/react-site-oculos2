@@ -2,7 +2,7 @@ import './style.css';
 
 export default function SecaoProdutos(){
     return(
-        <section className='secao-produtos'>
+        <section id='produtos' className='secao-produtos'>
             <div className="limita-secao">
             <div>
                 <h2 className="subtitulo">NOSSOS PRODUTOS</h2>
