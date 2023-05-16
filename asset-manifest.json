@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/react-site-oculos2/static/css/main.8873409c.css",
+    "main.js": "/react-site-oculos2/static/js/main.9eca671d.js",
+    "static/js/787.926b5a62.chunk.js": "/react-site-oculos2/static/js/787.926b5a62.chunk.js",
+    "static/media/capa.png": "/react-site-oculos2/static/media/capa.44a9e1db5439c08db3da.png",
+    "index.html": "/react-site-oculos2/index.html",
+    "main.8873409c.css.map": "/react-site-oculos2/static/css/main.8873409c.css.map",
+    "main.9eca671d.js.map": "/react-site-oculos2/static/js/main.9eca671d.js.map",
+    "787.926b5a62.chunk.js.map": "/react-site-oculos2/static/js/787.926b5a62.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8873409c.css",
+    "static/js/main.9eca671d.js"
+  ]
+}
